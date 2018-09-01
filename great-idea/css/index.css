@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -64,3 +65,320 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	width: 880px;
+	margin: 0px auto;
+	padding: 25px;
+}
+
+nav {
+	width: 880px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0px 0px 60px 0px;
+}
+
+
+.navigation a:hover {
+	text-decoration: underline;
+	color: orange;
+
+}
+
+header {
+	width: 880px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0px 0px 50px 0px;
+	
+}
+
+header navigation a{
+	text-decoration: none;
+	color: #b0b0b0;
+
+}
+
+h1 {
+	font-size: 75px;
+}
+
+.cta-text { /*innov on demand and get started */
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 10px 0px 0px 50px;
+
+}
+
+button {
+    background-color: white;
+    border: 1px solid gray;
+    color: grey;
+    padding: 15px 15px;
+    text-align: center;
+	font-size: 16px;
+	width: 50%;
+	margin: 10px 0px 0px 60px;
+}
+
+button:hover {
+	background-color: blue;
+	border: 1px solid rgb(51, 51, 163);
+	cursor: pointer;
+	color: white;
+}
+
+hr {
+	border: .5px solid black;
+	margin: 0;
+}
+
+
+.top-content {
+	width: 880px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin: 0px 0px 30px 0px;
+}
+
+.bottom-content {
+	width: 880px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin: 0px 0px 30px 0px;
+}
+
+.middle-img {
+	margin: 10px 0px 30px 0px;
+}
+
+#top {
+	width: 290px;
+}
+
+#middle {
+	width: 285px;
+}
+
+
+#lower {
+	width: 280px;
+}
+
+
+.contact {
+	width: 130px;
+}
+
+footer {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	margin: 15px;
+}
+
+/* SERVICES PAGE */
+
+
+
+.services nav {
+    width: 880px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0px 0px 20px 0px;
+	
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+	transition-duration: 0.4s;
+}
+
+
+.services h1 {
+    font-size: 30px;
+}
+
+.services h2 {
+    font-size: 20px;
+}
+
+.services button {
+	background-color: white;
+	width: 50%;
+    margin: 20px 0px 0px 0px;
+    border-radius: 8px;
+    border: solid grey 1px;
+    color: grey;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+	font-size: 15px;
+	
+}
+
+.services button:hover {
+	background-color: black;
+	color: lightgrey;
+    cursor: pointer;
+}
+
+.services hr {
+    width: 850px;
+    margin: 0px 0px 40px 0px;
+}
+
+.services .services-header-img {
+    margin: 0px 0px 20px 0px;
+    width: 880px;
+}
+
+.services .serv {
+    width: 880px;
+    margin: 0px 0px 40px 0px;
+}
+
+.services .digitaldesign {
+	border: solid black 1px;
+    padding: 20px;
+    width: 400px;
+	height: 250px;
+	background-color: lightgrey;
+}
+
+.services .uxui {
+    border: solid black 1px;
+    padding: 20px;
+    width: 400px;
+	height: 250px;
+	background-color: lightgrey;
+}
+
+.services .digs {
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+	margin: 0px 0px 40px 0px;
+}
+
+.services .marketing {
+    border: solid black 1px;
+    padding: 20px;
+    width: 400px;
+	height: 250px;
+	background-color: lightgrey;
+}
+
+.services .webdev {
+    border: solid black 1px;
+    padding: 20px;
+    width: 400px;
+	height: 250px;
+	background-color: lightgrey;
+}
+
+.services .marketweb {
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+	margin: 0px 0px 40px 0px;
+}
+
+.services .ios {
+    border: solid black 1px;
+    padding: 20px;
+    width: 400px;
+	height: 250px;
+	background-color: lightgrey;
+}
+
+.services .android {
+    border: solid black 1px;
+    padding: 20px;
+    width: 400px;
+	height: 250px;
+	background-color: lightgrey;
+}
+
+.services .iosandandroid{
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+	margin: 0px 0px 40px 0px;
+}
+
+.services .bottom {
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.services .facts {
+    height: 280px;
+    width: 400px;
+}
+
+.services ul {
+    width: 880px;
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+
+.services .hr {
+    border: solid black 1.1px;
+}
+
+/* CONTACT PAGE */
+
+.contactus {
+	background: url(images/contact2.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+ 	 -moz-background-size: cover;
+ 	 -o-background-size: cover;
+ 	 background-size: cover;
+}
+
+/* Form source: W3 Schools */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color:pink;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.containerform {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+	padding: 20px;
+	
+}
